@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Nonogram
 {
     class Program
     {
         static void Main(string[] args)
         {
+            //遊戲啟動
+            NonogramMgr.Instance().startGame(null);
+            //關閉遊戲
+            NonogramMgr.Instance().closeGame();
         }
     }
 }
